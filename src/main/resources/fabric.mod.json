@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "dread",
+  "version": "${version}",
+  "name": "Dread",
+  "description": "Хоррор-мод: Наблюдатель, который двигается, только пока на него не смотрят.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.dread.DreadMod"],
+    "client": ["com.example.dread.client.DreadClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
